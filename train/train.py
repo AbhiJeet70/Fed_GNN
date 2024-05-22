@@ -1,8 +1,8 @@
 
 import torch
 import torch.nn.functional as F
-from utils import get_params, set_params
-from gcn import GCN
+from utils.utils import get_params, set_params
+from GCN.gcn import GCN
 
 def train_client(client_data, server_model_params, num_features, hidden_dim, num_classes, device, learning_rate, weight_decay):
     client_params = []
