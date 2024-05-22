@@ -3,21 +3,6 @@
 This repository contains an implementation of federated learning using Graph Convolutional Networks (GCNs) on the Cora dataset. The project is structured into modular Python files, each handling a specific aspect of the training process.
 
 ## Repository Structure
-Fed_GNN/
-├── README.md
-├── config
-│ └── config.py
-├── utils
-│ └── utils.py
-├── data_loader
-│ └── data_loader.py
-├── gcn
-│ └── gcn.py
-├── train
-│ └── train.py
-├── evaluate
-│ └── evaluate.py
-└── main.py
 
 - `config.py`: Configuration settings including device setup and hyperparameters.
 - `utils.py`: Utility functions for managing model parameters.
