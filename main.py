@@ -1,12 +1,12 @@
 
 import torch
 import statistics
-from config import device, learning_rate, weight_decay, hidden_dim, num_clients, num_epochs
-from utils import get_params, set_params
-from data_loader import load_data, split_client_data
-from gcn import GCN
-from train import train_client
-from evaluate import evaluate_model
+from config.config import device, learning_rate, weight_decay, hidden_dim, num_clients, num_epochs
+from utils.utils import get_params, set_params
+from data_loader.data_loader import load_data, split_client_data
+from GCN.gcn import GCN
+from train.train import train_client
+from evaluate.evaluate import evaluate_model
 
 # Load data
 pyg_data = load_data()
