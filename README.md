@@ -4,6 +4,24 @@ This repository contains an implementation of federated learning using Graph Con
 
 ## Repository Structure
 
+```
+Fed_GNN/
+├── README.md
+├── config
+│ └── config.py
+├── utils
+│ └── utils.py
+├── data_loader
+│ └── data_loader.py
+├── gcn
+│ └── gcn.py
+├── train
+│ └── train.py
+├── evaluate
+│ └── evaluate.py
+└── main.py
+```
+
 - `config.py`: Configuration settings including device setup and hyperparameters.
 - `utils.py`: Utility functions for managing model parameters.
 - `data_loader.py`: Functions to load and split the Cora dataset.
